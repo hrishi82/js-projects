@@ -18,9 +18,13 @@ function countdown() {
     const sec = Math.floor(totalSeconds) % 60;
 
     daysEL.innerHTML = day;
-    hoursEl.innerHTML = hour;
-    minutesEl.innerHTML = min;
-    secondsEl.innerHTML = sec;
+    hoursEl.innerHTML = formtTime(hour);
+    minutesEl.innerHTML = formtTime(min);
+    secondsEl.innerHTML = formtTime(sec);
+}
+
+function formtTime(time) {
+    return time < 10 ? (`0${time}`) : time;
 }
 
 countdown();
