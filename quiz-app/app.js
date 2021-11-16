@@ -1,5 +1,5 @@
 let quizData = [{
-        question: 'Which is the best Air Jordan silhoette till date?',
+        question: 'Which is the best Air Jordan silhouette till date?',
         a: 'Air Jordan 11',
         b: 'Air Jordan 3',
         c: 'Air Jordan 4',
